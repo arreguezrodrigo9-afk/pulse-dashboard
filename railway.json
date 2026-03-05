@@ -1,0 +1,1 @@
+{"build":{"builder":"DOCKERFILE"},"deploy":{"startCommand":"npx tsx server.ts","restartPolicyType":"ON_FAILURE"}}

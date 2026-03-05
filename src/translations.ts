@@ -1,0 +1,136 @@
+export type Language = 'en' | 'es';
+
+export const translations = {
+  en: {
+    // Nav
+    overview: 'Overview',
+    customers: 'Customers',
+    revenue: 'Revenue',
+    insights: 'AI Insights',
+    churnAnalysis: 'Churn Analysis',
+    settings: 'Settings',
+    logout: 'Logout',
+    language: 'Language',
+    // KPIs
+    mrr: 'Monthly Recurring Revenue',
+    activeCustomers: 'Active Customers',
+    churnRate: 'Churn Rate',
+    arpu: 'Avg. Revenue Per Customer',
+    newThisMonth: 'New This Month',
+    vsLastMonth: 'vs last month',
+    // Status
+    systemStatus: 'System Status',
+    operational: 'All systems operational',
+    // AI
+    aiGrowthInsights: 'AI Growth Insights',
+    poweredBy: 'Powered by Gemini 2.0 Flash · CloudScale data',
+    refreshAnalysis: 'Refresh Analysis',
+    analyzing: 'Analyzing...',
+    // Charts
+    revenueGrowth: 'Monthly Recurring Revenue',
+    revenueByPlan: 'Revenue by plan',
+    last12Months: 'Last 12 months',
+    last6Months: 'Last 6 months',
+    // Table
+    recentCustomers: 'Customer Directory',
+    company: 'Company',
+    contact: 'Contact',
+    plan: 'Plan',
+    status: 'Status',
+    industry: 'Industry',
+    teamSize: 'Team',
+    joined: 'Joined',
+    lastSeen: 'Last Active',
+    searchPlaceholder: 'Search company, contact or email...',
+    allPlans: 'All plans',
+    allStatuses: 'All statuses',
+    active: 'Active',
+    churned: 'Churned',
+    trial: 'Trial',
+    // Impact
+    highImpact: 'High Impact',
+    mediumImpact: 'Medium Impact',
+    lowImpact: 'Low Impact',
+    // Churn
+    churnAnalysisTitle: 'Churn Analysis',
+    churnByPlan: 'Churn Rate by Plan',
+    churnByIndustry: 'Churn by Industry',
+    churnTrend: 'Churn Trend (6 months)',
+    riskLevel: 'Risk Level',
+    totalCustomersLabel: 'Total',
+    churnedLabel: 'Churned',
+    // Plan breakdown
+    planBreakdown: 'Plan Distribution',
+    mrrContribution: 'MRR Contribution',
+    // General
+    members: 'members',
+    noData: 'No data available',
+    loading: 'Loading...',
+  },
+  es: {
+    // Nav
+    overview: 'Resumen',
+    customers: 'Clientes',
+    revenue: 'Ingresos',
+    insights: 'Insights IA',
+    churnAnalysis: 'Análisis de Churn',
+    settings: 'Configuración',
+    logout: 'Cerrar Sesión',
+    language: 'Idioma',
+    // KPIs
+    mrr: 'Ingresos Recurrentes Mensuales',
+    activeCustomers: 'Clientes Activos',
+    churnRate: 'Tasa de Cancelación',
+    arpu: 'Ingreso Promedio por Cliente',
+    newThisMonth: 'Nuevos Este Mes',
+    vsLastMonth: 'vs mes anterior',
+    // Status
+    systemStatus: 'Estado del sistema',
+    operational: 'Todos los sistemas operativos',
+    // AI
+    aiGrowthInsights: 'Insights de Crecimiento IA',
+    poweredBy: 'Impulsado por Gemini 2.0 Flash · Datos de CloudScale',
+    refreshAnalysis: 'Actualizar Análisis',
+    analyzing: 'Analizando...',
+    // Charts
+    revenueGrowth: 'Ingresos Recurrentes Mensuales',
+    revenueByPlan: 'Ingresos por plan',
+    last12Months: 'Últimos 12 meses',
+    last6Months: 'Últimos 6 meses',
+    // Table
+    recentCustomers: 'Directorio de Clientes',
+    company: 'Empresa',
+    contact: 'Contacto',
+    plan: 'Plan',
+    status: 'Estado',
+    industry: 'Industria',
+    teamSize: 'Equipo',
+    joined: 'Alta',
+    lastSeen: 'Último acceso',
+    searchPlaceholder: 'Buscar empresa, contacto o email...',
+    allPlans: 'Todos los planes',
+    allStatuses: 'Todos los estados',
+    active: 'Activo',
+    churned: 'Cancelado',
+    trial: 'Prueba',
+    // Impact
+    highImpact: 'Alto Impacto',
+    mediumImpact: 'Impacto Medio',
+    lowImpact: 'Bajo Impacto',
+    // Churn
+    churnAnalysisTitle: 'Análisis de Churn',
+    churnByPlan: 'Tasa de Churn por Plan',
+    churnByIndustry: 'Churn por Industria',
+    churnTrend: 'Tendencia de Churn (6 meses)',
+    riskLevel: 'Nivel de Riesgo',
+    totalCustomersLabel: 'Total',
+    churnedLabel: 'Cancelados',
+    // Plan breakdown
+    planBreakdown: 'Distribución por Plan',
+    mrrContribution: 'Contribución al MRR',
+    // General
+    members: 'miembros',
+    noData: 'Sin datos disponibles',
+    loading: 'Cargando...',
+  },
+};
